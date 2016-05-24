@@ -17,6 +17,9 @@
 <meta name="twitter:description" content="A blog from the collective behind the firm.">
   
   
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
   <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
   <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/style.css">
@@ -43,6 +46,9 @@
     </div>
   </div>
 </header>
+    <div class="banner">
+<div class="banner1"></div>
+</div>
     <section id="main" class="outer"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -97,13 +103,20 @@
       </a>
     </div>
     <div id="footer-info" class="inner">
-      &copy; 2016 The Firm Collective&nbsp; ||&nbsp; <strike>Living in Shadows.</strike>
+      &copy; 2016 The Firm Collective&nbsp; ||&nbsp; <strike>Living in Shadows</strike>.
     </div>
   </div>
 </footer>
     
 
 <script src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.banner').slick({
+  });
+});
+</script>
 
 
 
